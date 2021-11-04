@@ -126,8 +126,6 @@ Connection ~ 900  1450
 Wire Wire Line
 	2350 1450 2450 1450
 NoConn ~ 2150 1650
-NoConn ~ 2150 2050
-NoConn ~ 2150 2350
 Wire Wire Line
 	2750 6650 2800 6650
 $Comp
@@ -994,4 +992,259 @@ Wire Wire Line
 	4700 7000 4700 7300
 Text GLabel 4500 7300 3    50   Output ~ 0
 RxD
+NoConn ~ 2150 3650
+NoConn ~ 2150 3750
+NoConn ~ 2150 3450
+NoConn ~ 2150 3550
+NoConn ~ 2150 3150
+NoConn ~ 2150 3250
+Text GLabel 2200 2050 2    50   Input ~ 0
+OLED-SCK
+Text GLabel 2200 2550 2    50   Input ~ 0
+OLED-CS
+Text GLabel 2200 2150 2    50   Input ~ 0
+OLED-DC
+Text GLabel 2200 2450 2    50   Input ~ 0
+OLED-RES
+Text GLabel 2200 2250 2    50   Input ~ 0
+OLED-SDA
+Wire Wire Line
+	2200 2150 2150 2150
+Wire Wire Line
+	2150 2050 2200 2050
+Wire Wire Line
+	2200 1950 2150 1950
+Text GLabel 2200 1850 2    50   Input ~ 0
+SD-CS
+Wire Wire Line
+	2200 1850 2150 1850
+Text GLabel 900  2950 0    50   Input ~ 0
+SD-SCK
+Text GLabel 900  3150 0    50   Input ~ 0
+SD-MISO
+Text GLabel 2200 2350 2    50   Input ~ 0
+SD-MOSI
+Wire Wire Line
+	2200 2350 2150 2350
+Wire Wire Line
+	900  2950 950  2950
+Wire Wire Line
+	950  3150 900  3150
+Wire Wire Line
+	2200 2250 2150 2250
+Wire Wire Line
+	2150 2450 2200 2450
+$Comp
+L Connector:Micro_SD_Card J3
+U 1 1 6187E616
+P 6150 1600
+F 0 "J3" H 6100 2317 50  0000 C CNN
+F 1 "Micro_SD_Card" H 6100 2226 50  0000 C CNN
+F 2 "Connector_Card:microSD_HC_Hirose_DM3AT-SF-PEJM5" H 7300 1900 50  0001 C CNN
+F 3 "http://katalog.we-online.de/em/datasheet/693072010801.pdf" H 6150 1600 50  0001 C CNN
+	1    6150 1600
+	1    0    0    -1  
+$EndComp
+Text GLabel 5200 1900 0    50   Input ~ 0
+SD-MISO
+Text GLabel 5200 1500 0    50   Input ~ 0
+SD-MOSI
+Text GLabel 5200 1400 0    50   Input ~ 0
+SD-CS
+Text GLabel 5200 1700 0    50   Input ~ 0
+SD-SCK
+$Comp
+L power:+3.3V #PWR0137
+U 1 1 61880EFD
+P 4650 1600
+F 0 "#PWR0137" H 4650 1450 50  0001 C CNN
+F 1 "+3.3V" H 4665 1773 50  0000 C CNN
+F 2 "" H 4650 1600 50  0001 C CNN
+F 3 "" H 4650 1600 50  0001 C CNN
+	1    4650 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0138
+U 1 1 61881BD4
+P 4650 1800
+F 0 "#PWR0138" H 4650 1550 50  0001 C CNN
+F 1 "GND" H 4655 1627 50  0000 C CNN
+F 2 "" H 4650 1800 50  0001 C CNN
+F 3 "" H 4650 1800 50  0001 C CNN
+	1    4650 1800
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5250 2000
+NoConn ~ 5250 1300
+Wire Wire Line
+	5250 1400 5200 1400
+Wire Wire Line
+	5200 1500 5250 1500
+Wire Wire Line
+	5250 1600 4650 1600
+Wire Wire Line
+	4650 1800 5250 1800
+Wire Wire Line
+	5250 1700 5200 1700
+Wire Wire Line
+	5250 1900 5200 1900
+$Comp
+L power:GND #PWR0139
+U 1 1 618A3615
+P 6950 2250
+F 0 "#PWR0139" H 6950 2000 50  0001 C CNN
+F 1 "GND" H 6955 2077 50  0000 C CNN
+F 2 "" H 6950 2250 50  0001 C CNN
+F 3 "" H 6950 2250 50  0001 C CNN
+	1    6950 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 2250 6950 2200
+$Comp
+L Sensor_Motion:LIS2DE12 U5
+U 1 1 618AF80A
+P 5700 3350
+F 0 "U5" H 5750 4121 50  0000 C CNN
+F 1 "LIS2DE12" H 5750 4030 50  0000 C CNN
+F 2 "Package_LGA:LGA-12_2x2mm_P0.5mm" H 5850 3900 50  0001 L CNN
+F 3 "https://www.st.com/resource/en/datasheet/lis2DE12.pdf" H 5350 3350 50  0001 C CNN
+F 4 "C189624" H 5750 3939 50  0000 C CNN "JLCPCB"
+	1    5700 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 2850 5200 2800
+$Comp
+L power:+3.3V #PWR0140
+U 1 1 618B239E
+P 5200 2800
+F 0 "#PWR0140" H 5200 2650 50  0001 C CNN
+F 1 "+3.3V" H 5215 2973 50  0000 C CNN
+F 2 "" H 5200 2800 50  0001 C CNN
+F 3 "" H 5200 2800 50  0001 C CNN
+	1    5200 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 618B23A5
+P 5200 3000
+F 0 "R8" H 5270 3046 50  0000 L CNN
+F 1 "10k" H 5270 2955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5130 3000 50  0001 C CNN
+F 3 "~" H 5200 3000 50  0001 C CNN
+	1    5200 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 3150 5300 3150
+Text GLabel 5250 3250 0    50   BiDi ~ 0
+I2C-SDA
+Text GLabel 5250 3450 0    50   Input ~ 0
+I2C-SCL
+NoConn ~ 6200 3250
+NoConn ~ 6200 3350
+Wire Wire Line
+	5600 3850 5700 3850
+Wire Wire Line
+	6200 3850 6200 3650
+Connection ~ 5700 3850
+Wire Wire Line
+	5700 3850 5800 3850
+Connection ~ 5800 3850
+Wire Wire Line
+	5800 3850 6200 3850
+$Comp
+L power:GND #PWR0141
+U 1 1 618CAA77
+P 6200 3900
+F 0 "#PWR0141" H 6200 3650 50  0001 C CNN
+F 1 "GND" H 6205 3727 50  0000 C CNN
+F 2 "" H 6200 3900 50  0001 C CNN
+F 3 "" H 6200 3900 50  0001 C CNN
+	1    6200 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 3900 6200 3850
+Connection ~ 6200 3850
+Wire Wire Line
+	5300 3450 5250 3450
+Wire Wire Line
+	5250 3250 5300 3250
+Wire Wire Line
+	5700 2850 5800 2850
+$Comp
+L Device:C C13
+U 1 1 618E527F
+P 6850 3000
+F 0 "C13" H 6965 3046 50  0000 L CNN
+F 1 "10µ" H 6965 2955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6888 2850 50  0001 C CNN
+F 3 "~" H 6850 3000 50  0001 C CNN
+	1    6850 3000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C12
+U 1 1 618E5286
+P 6450 3000
+F 0 "C12" H 6565 3046 50  0000 L CNN
+F 1 "100n" H 6565 2955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6488 2850 50  0001 C CNN
+F 3 "~" H 6450 3000 50  0001 C CNN
+	1    6450 3000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0142
+U 1 1 618E528C
+P 6450 3150
+F 0 "#PWR0142" H 6450 2900 50  0001 C CNN
+F 1 "GND" H 6455 2977 50  0000 C CNN
+F 2 "" H 6450 3150 50  0001 C CNN
+F 3 "" H 6450 3150 50  0001 C CNN
+	1    6450 3150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0143
+U 1 1 618E5292
+P 6850 3150
+F 0 "#PWR0143" H 6850 2900 50  0001 C CNN
+F 1 "GND" H 6855 2977 50  0000 C CNN
+F 2 "" H 6850 3150 50  0001 C CNN
+F 3 "" H 6850 3150 50  0001 C CNN
+	1    6850 3150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 2850 6450 2850
+Connection ~ 6450 2850
+Wire Wire Line
+	6450 2850 5800 2850
+$Comp
+L power:+3.3V #PWR0144
+U 1 1 618EAD22
+P 6850 2850
+F 0 "#PWR0144" H 6850 2700 50  0001 C CNN
+F 1 "+3.3V" H 6865 3023 50  0000 C CNN
+F 2 "" H 6850 2850 50  0001 C CNN
+F 3 "" H 6850 2850 50  0001 C CNN
+	1    6850 2850
+	1    0    0    -1  
+$EndComp
+Connection ~ 6850 2850
+NoConn ~ 5300 3350
+Connection ~ 5800 2850
+Wire Wire Line
+	2200 2550 2150 2550
+Text GLabel 2200 2650 2    50   Input ~ 0
+I2C-SCL
+Text GLabel 2200 1950 2    50   BiDi ~ 0
+I2C-SDA
+Wire Wire Line
+	2200 2650 2150 2650
 $EndSCHEMATC
