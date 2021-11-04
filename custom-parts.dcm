@@ -1,3 +1,16 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP K1-1506SN-01
+F https://datasheet.lcsc.com/lcsc/1809211419_Korean-Hroparts-Elec-K1-1506SN-01_C145910.pdf
+$ENDCMP
+#
+$CMP PPSI262
+F https://datasheet.lcsc.com/lcsc/1912111437_Partron-PPSI262_C328758.pdf
+$ENDCMP
+#
+$CMP SGP30
+D Sensirion Gas Platform
+F https://datasheet.lcsc.com/lcsc/2004151334_Sensirion-SGP30-2.5k_C514454.pdf
+$ENDCMP
+#
 #End Doc Library
