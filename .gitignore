@@ -1,5 +1,6 @@
 *.kicad_pcb-bak
 *.sch-bak
+*.zip
 _autosave*
 fp-info-cache
 fp-lib-table

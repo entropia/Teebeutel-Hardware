@@ -754,11 +754,9 @@ F 4 "C266621" H 9850 1975 50  0000 C CNN "JLCPCB"
 $EndComp
 Text GLabel 8750 1650 0    50   Input ~ 0
 SD-MISO
-Text GLabel 8750 1250 0    50   Input ~ 0
+Text GLabel 8450 1250 1    50   Input ~ 0
 SD-MOSI
-Text GLabel 8750 1150 0    50   Input ~ 0
-SD-CS
-Text GLabel 8750 1450 0    50   Input ~ 0
+Text GLabel 8450 1450 0    50   Input ~ 0
 SD-SCK
 $Comp
 L power:+3.3V #PWR068
@@ -2536,8 +2534,6 @@ Wire Wire Line
 	8250 1550 9000 1550
 Wire Wire Line
 	8750 1150 9000 1150
-Wire Wire Line
-	8750 1250 8950 1250
 $Comp
 L Connector:TestPoint TP19
 U 1 1 61D1311D
@@ -3563,4 +3559,22 @@ NoConn ~ 7950 7700
 NoConn ~ 7950 7500
 NoConn ~ 7000 10500
 NoConn ~ 12000 7250
+$Comp
+L Device:R R26
+U 1 1 6238B3D1
+P 8600 1450
+F 0 "R26" H 8530 1404 50  0000 R CNN
+F 1 "10" H 8530 1495 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8530 1450 50  0001 C CNN
+F 3 "~" H 8600 1450 50  0001 C CNN
+	1    8600 1450
+	0    1    1    0   
+$EndComp
+Text GLabel 8600 1150 1    50   Input ~ 0
+SD-CS
+Wire Wire Line
+	8600 1150 8750 1150
+Connection ~ 8750 1150
+Wire Wire Line
+	8450 1250 8950 1250
 $EndSCHEMATC
