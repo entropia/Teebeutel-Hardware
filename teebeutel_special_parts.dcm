@@ -1,0 +1,28 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP K1-1506SN-01
+F https://datasheet.lcsc.com/lcsc/1809211419_Korean-Hroparts-Elec-K1-1506SN-01_C145910.pdf
+$ENDCMP
+#
+$CMP PPSI262
+F https://datasheet.lcsc.com/lcsc/1912111437_Partron-PPSI262_C328758.pdf
+$ENDCMP
+#
+$CMP S8050-J3Y
+D 0.7A Ic, 20V Vce, Low Voltage High Current NPN Transistor, TO-92
+K S8050 NPN Low Voltage High Current Transistor
+F http://www.unisonic.com.tw/datasheet/S8050.pdf
+$ENDCMP
+#
+$CMP SGP30
+D Sensirion Gas Platform
+F https://datasheet.lcsc.com/lcsc/2004151334_Sensirion-SGP30-2.5k_C514454.pdf
+$ENDCMP
+#
+$CMP WS2812B-4020
+D RGB LED with integrated controller
+K RGB LED NeoPixel addressable
+F https://datasheet.lcsc.com/lcsc/2012110135_Worldsemi-WS2812B-4020_C965557.pdf
+$ENDCMP
+#
+#End Doc Library
