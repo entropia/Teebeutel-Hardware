@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/jadyn/KiCad/Teebeutel/Teebeutel.sch</source>
-    <date>Sat 13 Nov 2021 02:23:19 CET</date>
+    <date>Sun 14 Nov 2021 15:38:28 CET</date>
     <tool>Eeschema 5.1.10</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -181,7 +181,7 @@
       <datasheet>https://www.diodes.com/assets/Datasheets/ds30396.pdf</datasheet>
       <fields>
         <field name="JLC">SOD-523</field>
-        <field name="LCSC">C393518</field>
+        <field name="LCSC">C727112</field>
       </fields>
       <libsource lib="Diode" part="1N4148WT" description="75V 0.15A Fast switching Diode, SOD-523"/>
       <sheetpath names="/" tstamps="/"/>
@@ -193,7 +193,7 @@
       <datasheet>https://www.diodes.com/assets/Datasheets/ds30396.pdf</datasheet>
       <fields>
         <field name="JLC">SOD-523</field>
-        <field name="LCSC">C393518</field>
+        <field name="LCSC">C727112</field>
       </fields>
       <libsource lib="Diode" part="1N4148WT" description="75V 0.15A Fast switching Diode, SOD-523"/>
       <sheetpath names="/" tstamps="/"/>
