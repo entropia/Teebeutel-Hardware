@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "5.1.10"
     },
-    "CreationDate":  "2021-11-18T13:25:07+01:00"
+    "CreationDate":  "2021-11-19T14:48:17+01:00"
   },
   "GeneralSpecs":
   {
@@ -15,7 +15,7 @@
     {
       "Name": "Teebeutel",
       "GUID": "54656562-6575-4746-956c-2e6b69636164",
-      "Revision": "rev?"
+      "Revision": "v0.1"
     },
     "Size":
     {
@@ -88,6 +88,11 @@
       "Path":  "Teebeutel-B_Mask.gbr",
       "FileFunction":  "SolderMask,Bot",
       "FilePolarity":  "Negative"
+    },
+    {
+      "Path":  "Teebeutel-Edge_Cuts.gbr",
+      "FileFunction":  "Profile",
+      "FilePolarity":  "Positive"
     }
   ],
   "MaterialStackup":

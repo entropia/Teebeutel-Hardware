@@ -5,13 +5,13 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "Teebeutel"
-Date "2021-11-03"
-Rev "v0.0"
-Comp "Entropia"
-Comment1 ""
-Comment2 ""
-Comment3 "with some help from Jana Marie"
-Comment4 "by jadyn.dev"
+Date "2021-11-19"
+Rev "v0.1"
+Comp "Entropia e.V."
+Comment1 "https://teebeutel.jadyn.dev"
+Comment2 "License: CERN-OHL-S"
+Comment3 "OSHW-ID: *TBA*"
+Comment4 ""
 $EndDescr
 Text GLabel 2550 3350 2    50   Input ~ 0
 RxD
