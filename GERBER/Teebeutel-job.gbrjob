@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "5.1.10"
     },
-    "CreationDate":  "2021-11-19T14:48:17+01:00"
+    "CreationDate":  "2021-11-19T17:21:31+01:00"
   },
   "GeneralSpecs":
   {
@@ -47,16 +47,6 @@
     {
       "Path":  "Teebeutel-B_Cu.gbr",
       "FileFunction":  "Copper,L2,Bot",
-      "FilePolarity":  "Positive"
-    },
-    {
-      "Path":  "Teebeutel-F_Adhes.gbr",
-      "FileFunction":  "Glue,Top",
-      "FilePolarity":  "Positive"
-    },
-    {
-      "Path":  "Teebeutel-B_Adhes.gbr",
-      "FileFunction":  "Glue,Bot",
       "FilePolarity":  "Positive"
     },
     {
