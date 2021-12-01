@@ -10,7 +10,7 @@ Rev "v0.1"
 Comp "Entropia e.V."
 Comment1 "https://teebeutel.jadyn.dev"
 Comment2 "License: CERN-OHL-S"
-Comment3 "OSHW-ID: *TBA*"
+Comment3 "OSHW-ID: DE000117"
 Comment4 ""
 $EndDescr
 Text GLabel 2550 3350 2    50   Input ~ 0
