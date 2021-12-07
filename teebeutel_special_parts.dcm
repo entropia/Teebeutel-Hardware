@@ -4,6 +4,10 @@ $CMP K1-1506SN-01
 F https://datasheet.lcsc.com/lcsc/1809211419_Korean-Hroparts-Elec-K1-1506SN-01_C145910.pdf
 $ENDCMP
 #
+$CMP PCA9539BS,118
+F http://www.nxp.com/docs/en/data-sheet/PCA9539_PCA9539R.pdf
+$ENDCMP
+#
 $CMP PPSI262
 F https://datasheet.lcsc.com/lcsc/1912111437_Partron-PPSI262_C328758.pdf
 $ENDCMP
