@@ -4334,47 +4334,47 @@ Text GLabel 7400 10500 2    50   Input ~ 0
 WS2812-OUT
 Wire Wire Line
 	7000 10500 7400 10500
-Text GLabel 7350 3050 2    50   Input ~ 0
+Text GLabel 6250 3100 0    50   Input ~ 0
 WS2812-OUT
-Text GLabel 7350 2650 2    50   BiDi ~ 0
+Text GLabel 6250 2700 0    50   BiDi ~ 0
 I2C-SDA
-Text GLabel 7350 2750 2    50   Input ~ 0
+Text GLabel 6250 2800 0    50   Input ~ 0
 I2C-SCL
 $Comp
 L power:GND #PWR0143
 U 1 1 629B5C38
-P 7400 3150
-F 0 "#PWR0143" H 7400 2900 50  0001 C CNN
-F 1 "GND" H 7405 2977 50  0000 C CNN
-F 2 "" H 7400 3150 50  0001 C CNN
-F 3 "" H 7400 3150 50  0001 C CNN
-	1    7400 3150
-	1    0    0    -1  
+P 6200 3200
+F 0 "#PWR0143" H 6200 2950 50  0001 C CNN
+F 1 "GND" H 6205 3027 50  0000 C CNN
+F 2 "" H 6200 3200 50  0001 C CNN
+F 3 "" H 6200 3200 50  0001 C CNN
+	1    6200 3200
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR0144
 U 1 1 629EAE39
-P 6300 2250
-F 0 "#PWR0144" H 6300 2100 50  0001 C CNN
-F 1 "+3.3V" H 6315 2423 50  0000 C CNN
-F 2 "" H 6300 2250 50  0001 C CNN
-F 3 "" H 6300 2250 50  0001 C CNN
-	1    6300 2250
-	1    0    0    -1  
+P 7200 2300
+F 0 "#PWR0144" H 7200 2150 50  0001 C CNN
+F 1 "+3.3V" H 7215 2473 50  0000 C CNN
+F 2 "" H 7200 2300 50  0001 C CNN
+F 3 "" H 7200 2300 50  0001 C CNN
+	1    7200 2300
+	-1   0    0    -1  
 $EndComp
-Text GLabel 7350 2950 2    50   Input ~ 0
+Text GLabel 6250 3000 0    50   Input ~ 0
 RxD
-Text GLabel 7350 2850 2    50   Output ~ 0
+Text GLabel 6250 2900 0    50   Output ~ 0
 TxD
 $Comp
 L Transistor_FET:BSN20 Q3
 U 1 1 62AFD6AC
 P 6650 7000
 F 0 "Q3" H 6854 7091 50  0000 L CNN
-F 1 "BSN20" H 6854 7000 50  0000 L CNN
+F 1 "AO3400" H 6854 7000 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 6850 6925 50  0001 L CIN
 F 3 "http://www.diodes.com/assets/Datasheets/ds31898.pdf" H 6650 7000 50  0001 L CNN
-F 4 " C118033" H 6854 6909 50  0000 L CNN "LCSC"
+F 4 "C841146" H 6854 6909 50  0000 L CNN "LCSC"
 	1    6650 7000
 	1    0    0    -1  
 $EndComp
@@ -4611,7 +4611,7 @@ Text GLabel 2550 5350 2    50   BiDi ~ 0
 ESP-ADC5
 Wire Wire Line
 	2550 5350 2450 5350
-Text GLabel 7350 2550 2    50   BiDi ~ 0
+Text GLabel 6250 2600 0    50   BiDi ~ 0
 ESP-ADC5
 $Comp
 L Connector:TestPoint TP34
@@ -4636,91 +4636,91 @@ F 3 "~" H 6450 6850 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	6350 2350 6550 2350
+	7150 2400 6950 2400
 Wire Wire Line
-	6550 2450 6350 2450
+	6950 2500 7150 2500
 Wire Wire Line
-	6350 2550 6550 2550
+	7150 2600 6950 2600
 Wire Wire Line
-	6550 2650 6350 2650
+	6950 2700 7150 2700
 Wire Wire Line
-	6350 2750 6550 2750
+	7150 2800 6950 2800
 Wire Wire Line
-	6350 2850 6550 2850
+	7150 2900 6950 2900
 Wire Wire Line
-	6550 2950 6350 2950
+	6950 3000 7150 3000
 Wire Wire Line
-	6350 3050 6550 3050
+	7150 3100 6950 3100
 $Comp
 L Connector:Conn_01x10_Female J6
 U 1 1 6553A1D9
-P 6950 2650
-F 0 "J6" H 6850 3200 50  0000 C CNN
-F 1 "Conn_01x10_Female" H 6842 3144 50  0001 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical_SMD_Pin1Right" H 6950 2650 50  0001 C CNN
-F 3 "~" H 6950 2650 50  0001 C CNN
-	1    6950 2650
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	7150 2450 7350 2450
-Wire Wire Line
-	7350 2550 7150 2550
-Wire Wire Line
-	7150 2650 7350 2650
-Wire Wire Line
-	7350 2750 7150 2750
-Wire Wire Line
-	7150 2850 7350 2850
-Wire Wire Line
-	7150 2950 7350 2950
-Wire Wire Line
-	7350 3050 7150 3050
-Wire Wire Line
-	6300 2250 6550 2250
-$Comp
-L power:+3.3V #PWR0154
-U 1 1 6578F5C7
-P 7400 2250
-F 0 "#PWR0154" H 7400 2100 50  0001 C CNN
-F 1 "+3.3V" H 7415 2423 50  0000 C CNN
-F 2 "" H 7400 2250 50  0001 C CNN
-F 3 "" H 7400 2250 50  0001 C CNN
-	1    7400 2250
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	7400 2250 7150 2250
-Wire Wire Line
-	7150 3150 7400 3150
-$Comp
-L power:GND #PWR0151
-U 1 1 6589BE45
-P 6300 3150
-F 0 "#PWR0151" H 6300 2900 50  0001 C CNN
-F 1 "GND" H 6305 2977 50  0000 C CNN
-F 2 "" H 6300 3150 50  0001 C CNN
-F 3 "" H 6300 3150 50  0001 C CNN
-	1    6300 3150
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	6550 3150 6300 3150
-$Comp
-L power:+5V #PWR0155
-U 1 1 65920A95
-P 7600 2250
-F 0 "#PWR0155" H 7600 2100 50  0001 C CNN
-F 1 "+5V" H 7615 2423 50  0000 C CNN
-F 2 "" H 7600 2250 50  0001 C CNN
-F 3 "" H 7600 2250 50  0001 C CNN
-	1    7600 2250
+P 6650 2700
+F 0 "J6" H 6550 3250 50  0000 C CNN
+F 1 "Conn_01x10_Female" H 6542 3194 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical_SMD_Pin1Right" H 6650 2700 50  0001 C CNN
+F 3 "~" H 6650 2700 50  0001 C CNN
+	1    6650 2700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7150 2350 7600 2350
+	6450 2500 6250 2500
 Wire Wire Line
-	7600 2350 7600 2250
+	6250 2600 6450 2600
+Wire Wire Line
+	6450 2700 6250 2700
+Wire Wire Line
+	6250 2800 6450 2800
+Wire Wire Line
+	6450 2900 6250 2900
+Wire Wire Line
+	6450 3000 6250 3000
+Wire Wire Line
+	6250 3100 6450 3100
+Wire Wire Line
+	7200 2300 6950 2300
+$Comp
+L power:+3.3V #PWR0154
+U 1 1 6578F5C7
+P 6200 2300
+F 0 "#PWR0154" H 6200 2150 50  0001 C CNN
+F 1 "+3.3V" H 6215 2473 50  0000 C CNN
+F 2 "" H 6200 2300 50  0001 C CNN
+F 3 "" H 6200 2300 50  0001 C CNN
+	1    6200 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 2300 6450 2300
+Wire Wire Line
+	6450 3200 6200 3200
+$Comp
+L power:GND #PWR0151
+U 1 1 6589BE45
+P 7200 3200
+F 0 "#PWR0151" H 7200 2950 50  0001 C CNN
+F 1 "GND" H 7205 3027 50  0000 C CNN
+F 2 "" H 7200 3200 50  0001 C CNN
+F 3 "" H 7200 3200 50  0001 C CNN
+	1    7200 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 3200 7200 3200
+$Comp
+L power:+5V #PWR0155
+U 1 1 65920A95
+P 6000 2300
+F 0 "#PWR0155" H 6000 2150 50  0001 C CNN
+F 1 "+5V" H 6015 2473 50  0000 C CNN
+F 2 "" H 6000 2300 50  0001 C CNN
+F 3 "" H 6000 2300 50  0001 C CNN
+	1    6000 2300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 2400 6000 2400
+Wire Wire Line
+	6000 2400 6000 2300
 Wire Wire Line
 	8500 9850 8500 9900
 Wire Wire Line
@@ -4812,21 +4812,21 @@ Wire Wire Line
 	10000 7800 10050 7800
 Text GLabel 2550 5550 2    50   Input ~ 0
 SPO2-INT
-Text GLabel 6350 3050 0    50   BiDi ~ 0
+Text GLabel 7150 3100 2    50   BiDi ~ 0
 EXP-IO1-7
-Text GLabel 6350 2950 0    50   BiDi ~ 0
+Text GLabel 7150 3000 2    50   BiDi ~ 0
 EXP-IO1-6
-Text GLabel 6350 2850 0    50   BiDi ~ 0
+Text GLabel 7150 2900 2    50   BiDi ~ 0
 EXP-IO1-5
-Text GLabel 6350 2750 0    50   BiDi ~ 0
+Text GLabel 7150 2800 2    50   BiDi ~ 0
 EXP-IO1-4
-Text GLabel 6350 2650 0    50   BiDi ~ 0
+Text GLabel 7150 2700 2    50   BiDi ~ 0
 EXP-IO1-3
-Text GLabel 6350 2550 0    50   BiDi ~ 0
+Text GLabel 7150 2600 2    50   BiDi ~ 0
 EXP-IO1-2
-Text GLabel 6350 2450 0    50   BiDi ~ 0
+Text GLabel 7150 2500 2    50   BiDi ~ 0
 EXP-IO1-1
-Text GLabel 6350 2350 0    50   BiDi ~ 0
+Text GLabel 7150 2400 2    50   BiDi ~ 0
 EXP-IO1-0
 Text GLabel 11150 3850 2    50   BiDi ~ 0
 EXP-IO1-7
@@ -4851,7 +4851,7 @@ Wire Wire Line
 Connection ~ 14400 4400
 Wire Wire Line
 	14400 4400 14400 4500
-Text GLabel 7350 2450 2    50   BiDi ~ 0
+Text GLabel 6250 2500 0    50   BiDi ~ 0
 EXP-IO0-8
 Text GLabel 11150 4750 2    50   BiDi ~ 0
 EXP-IO0-8
@@ -4882,13 +4882,13 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x10_Female J5
 U 1 1 65472ECD
-P 6750 2650
-F 0 "J5" H 6600 3200 50  0000 L CNN
-F 1 "Conn_01x10_Female" H 6778 2535 50  0001 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical_SMD_Pin1Left" H 6750 2650 50  0001 C CNN
-F 3 "~" H 6750 2650 50  0001 C CNN
-	1    6750 2650
-	1    0    0    -1  
+P 6750 2700
+F 0 "J5" H 6600 3250 50  0000 L CNN
+F 1 "Conn_01x10_Female" H 6778 2585 50  0001 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical_SMD_Pin1Left" H 6750 2700 50  0001 C CNN
+F 3 "~" H 6750 2700 50  0001 C CNN
+	1    6750 2700
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	5700 8200 5700 8550
