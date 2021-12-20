@@ -1,0 +1,33 @@
+Reference,Description
+TP1 ,ESP32 EN
+TP2 ,WS2821
+TP3 ,ESP32 IO0
+TP4 ,I²C SDA
+TP5 ,I²C SCL
+TP6 ,DTR 3.3V
+TP7 ,TxD 3.3V
+TP8 ,RxD 3.3V
+TP9 ,RTS 3.3V
+TP10 ,SD-Card SCK
+TP11 ,SD-Card CS
+TP12 ,SD-Card MOSI
+TP13 ,SD-Card MISO
+TP14 ,Button Down
+TP15 ,Button Left
+TP16 ,Button Up
+TP17 ,Button Push
+TP18 ,Button Right
+TP19 ,Charging status
+TP20 ,ADC Battery (1/4 Battery voltage)
+TP21 ,IR-TX
+TP22 ,IR-RX
+TP23 ,V +1.8V
+TP24 ,I²C SDA 1.8V
+TP25 ,I²C SCL 1.8V
+TP26 ,OLED VPP (13V)
+TP27 ,OLED SDA
+TP28 ,OLED SCK
+TP29 ,OLED CS
+TP30 ,OLED DC
+TP31 ,OLED RESET
+TP32 ,V +3.3V

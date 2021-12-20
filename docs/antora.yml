@@ -1,0 +1,7 @@
+name: hardware 
+title: Teebeutel Hardware
+version: v0.1
+nav:
+    - modules/pcb/nav.adoc
+    - modules/sensor/nav.adoc
+    - modules/display/nav.adoc

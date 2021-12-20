@@ -1,0 +1,6 @@
+* Sensors
+** xref:spo2.adoc[]
+** xref:gas.adoc[Testpads]
+** xref:hall-sensor.adoc[]
+** xref:touch.adoc[]
+** xref:d-pad.adoc[]
