@@ -1,0 +1,14 @@
+= Teebeutel Bom
+
+IMPORTANT: Please make sure that you are viewing the correct BOM version!
+
+
+== BOM {page-component-version}
+
+You can use this interactive BOM-Tool to populate your PCB:
+link:{attachmentsdir}/ibom.html[BOM-Tool,window=_blank]
+
+[%header,format=csv]
+|===
+include::../attachments/bom.csv[]
+|===

@@ -2,4 +2,7 @@ name: hardware
 title: Teebeutel Hardware
 version: v1.0
 prerelease: true
-
+nav:
+    - modules/pcb/nav.adoc
+    - modules/sensor/nav.adoc
+    - modules/display/nav.adoc
