@@ -2,6 +2,7 @@
 *.sch-bak
 *.zip
 *-cache.lib
+.idea
 _autosave*
 Teebeutel.xml
 fp-info-cache
