@@ -4,7 +4,12 @@ $CMP K1-1506SN-01
 F https://datasheet.lcsc.com/lcsc/1809211419_Korean-Hroparts-Elec-K1-1506SN-01_C145910.pdf
 $ENDCMP
 #
-$CMP PCA9539BS,118
+$CMP PCA9539BS
+F http://www.nxp.com/docs/en/data-sheet/PCA9539_PCA9539R.pdf
+$ENDCMP
+#
+$CMP PCA9539D_PW
+D 16-bit I2C-bus and SMBus low power I/O port with interrupt and reset
 F http://www.nxp.com/docs/en/data-sheet/PCA9539_PCA9539R.pdf
 $ENDCMP
 #
