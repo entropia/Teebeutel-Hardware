@@ -8,7 +8,8 @@ $CMP PCA9539BS
 F http://www.nxp.com/docs/en/data-sheet/PCA9539_PCA9539R.pdf
 $ENDCMP
 #
-$CMP PCA9539PW
+$CMP PCA9539D_PW
+D 16-bit I2C-bus and SMBus low power I/O port with interrupt and reset
 F http://www.nxp.com/docs/en/data-sheet/PCA9539_PCA9539R.pdf
 $ENDCMP
 #
