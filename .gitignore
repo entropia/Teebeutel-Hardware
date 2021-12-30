@@ -2,7 +2,10 @@
 *.sch-bak
 *.zip
 *-cache.lib
+*.kicad_prl
+.idea
 _autosave*
+Teebeutel-backups
 Teebeutel.xml
 fp-info-cache
 fp-lib-table
