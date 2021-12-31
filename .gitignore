@@ -1,4 +1,5 @@
 *.kicad_pcb-bak
+*.kicad_sch-bak
 *.sch-bak
 *.zip
 *-cache.lib
