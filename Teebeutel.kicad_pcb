@@ -2612,7 +2612,7 @@
   (footprint "Teebeutel_Graphics:name-tag" locked (layer "F.Cu")
     (tedit 0) (tstamp 00000000-0000-0000-0000-000061b05ff7)
     (at 146 70.117)
-    (attr through_hole)
+    (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "G***" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 0.5 0.5) (thickness 0.1)))
       (tstamp 59306d6c-49ed-4116-ab4a-d9eca2a5f1df)

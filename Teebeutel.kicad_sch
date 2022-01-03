@@ -10260,7 +10260,7 @@
     (property "Reference" "TP8" (id 0) (at 399.7452 64.77 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "OLED SDA" (id 1) (at 395.6558 66.2432 0)
+    (property "Value" "OLED MOSI" (id 1) (at 395.6558 66.2432 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (id 2) (at 394.97 69.85 0)
@@ -12620,7 +12620,7 @@
     (property "JLC" "0603" (id 4) (at 233.68 204.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C25804" (id 5) (at 233.68 204.47 0)
+    (property "LCSC" "" (id 5) (at 233.68 204.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 8502c0c3-d991-420d-a023-92b068bd0a20))
@@ -13728,7 +13728,7 @@
       (reference "TP7") (unit 1) (value "SD-Card MISO") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/00000000-0000-0000-0000-000061a9f0c1"
-      (reference "TP8") (unit 1) (value "OLED SDA") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+      (reference "TP8") (unit 1) (value "OLED MOSI") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/00000000-0000-0000-0000-000061aa00ca"
       (reference "TP9") (unit 1) (value "OLED SCK") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
