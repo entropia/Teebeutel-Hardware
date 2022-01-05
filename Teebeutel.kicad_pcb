@@ -7649,8 +7649,7 @@
     (at 146 134 180)
     (descr "Single 2.4 GHz Wi-Fi and Bluetooth combo chip https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf")
     (tags "Single 2.4 GHz Wi-Fi and Bluetooth combo  chip")
-    (property "JLC" "QFN-38_EP_18.0x25.0x1.27P")
-    (property "LCSC" "C82899")
+    (property "LCSC" "C701343")
     (property "Sheetfile" "Teebeutel.kicad_sch")
     (property "Sheetname" "")
     (path "/00000000-0000-0000-0000-000061827961")
@@ -7659,7 +7658,7 @@
       (effects (font (size 0.5 0.5) (thickness 0.1)))
       (tstamp afb159fb-8c78-4f37-8db7-ed0bc3c88627)
     )
-    (fp_text value "ESP32-WROOM-32" (at 0 11.5 unlocked) (layer "F.Fab") hide
+    (fp_text value "ESP32-WROOM-32E(16MB)" (at 0 11.5 unlocked) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b65c241a-7563-48cc-88e5-54a3c480afeb)
     )
