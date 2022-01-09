@@ -6,12 +6,12 @@
 
   (title_block
     (title "Teebeutel")
-    (date "2021-12-31")
+    (date "2022-01-09")
     (rev "v1.0")
     (company "Entropia e.V.")
     (comment 1 "https://teebeutel.entropia.de")
     (comment 2 "License: CERN-OHL-S")
-    (comment 3 "OSHW-ID: DE000117")
+    (comment 3 "OSHW-ID: DE000119")
   )
 
   (lib_symbols

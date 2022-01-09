@@ -12,7 +12,7 @@
     (company "Entropia e.V.")
     (comment 1 "https://teebeutel.entropia.de")
     (comment 2 "License: CERN-OHL-S")
-    (comment 3 "OSHW-ID: DE000117")
+    (comment 3 "OSHW-ID: DE000119")
   )
 
   (layers
@@ -15815,7 +15815,7 @@
   (gr_text "GND\n" (at 178 111.5 90) (layer "F.SilkS") (tstamp 115d7cfb-83de-4c0d-ac33-b3fe009899ab)
     (effects (font (size 0.7 0.7) (thickness 0.15)))
   )
-  (gr_text "ID: DE000117" (at 123.589 73.8) (layer "F.SilkS") (tstamp 31cb3876-8d36-48c8-90e4-cdf91d9100f4)
+  (gr_text "ID: DE000119" (at 123.589 73.8) (layer "F.SilkS") (tstamp 31cb3876-8d36-48c8-90e4-cdf91d9100f4)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text "JLCJLCJLCJLC" (at 165.4 148.5) (layer "F.SilkS") (tstamp 570a3368-221b-41a4-9bf4-5395f0a2b775)
