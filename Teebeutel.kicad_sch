@@ -13872,6 +13872,7 @@
     (property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Jiangsu-Qin-Heng-CH340C_C84681.pdf" (id 3) (at 78.105 -51.435 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C84681" (id 4) (at 86.995 -31.115 0))
     (pin "1" (uuid 1ee63787-d3f2-4f94-8466-c83ffe153638))
     (pin "10" (uuid b29f1ba9-b31f-46a8-b7cb-58300e1da6d4))
     (pin "11" (uuid 24fc6d20-1b34-4456-86fe-f0d3241624fd))
