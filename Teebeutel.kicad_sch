@@ -20669,7 +20669,7 @@
   (symbol (lib_name "C_1") (lib_id "Device:C") (at 274.32 53.34 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000618e1606)
-    (property "Reference" "C20" (id 0) (at 277.241 52.1716 0)
+    (property "Reference" "C18" (id 0) (at 277.241 52.1716 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7µF" (id 1) (at 277.241 54.483 0)
@@ -21031,7 +21031,7 @@
   (symbol (lib_name "TestPoint_4") (lib_id "Connector:TestPoint") (at 243.84 364.49 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006195543a)
-    (property "Reference" "TP26" (id 0) (at 245.3132 362.6612 0)
+    (property "Reference" "TP21" (id 0) (at 245.3132 362.6612 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "IR-RX" (id 1) (at 245.3132 363.8042 0)
@@ -21089,7 +21089,7 @@
   (symbol (lib_name "C_9") (lib_id "Device:C") (at 274.32 105.41 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061956615)
-    (property "Reference" "C21" (id 0) (at 277.241 104.2416 0)
+    (property "Reference" "C20" (id 0) (at 277.241 104.2416 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7µF" (id 1) (at 277.241 106.553 0)
@@ -21161,7 +21161,7 @@
   (symbol (lib_name "C_10") (lib_id "Device:C") (at 255.27 105.41 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006195b020)
-    (property "Reference" "C18" (id 0) (at 258.191 104.2416 0)
+    (property "Reference" "C17" (id 0) (at 258.191 104.2416 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7µF" (id 1) (at 258.191 106.553 0)
@@ -21235,7 +21235,7 @@
   (symbol (lib_name "C_25") (lib_id "Device:C") (at 41.91 60.96 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061962faa)
-    (property "Reference" "C51" (id 0) (at 44.831 62.1284 0)
+    (property "Reference" "C22" (id 0) (at 44.831 62.1284 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (id 1) (at 44.831 59.817 0)
@@ -21257,7 +21257,7 @@
   (symbol (lib_name "C_24") (lib_id "Device:C") (at 52.07 60.96 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061962fb2)
-    (property "Reference" "C2" (id 0) (at 54.991 62.1284 0)
+    (property "Reference" "C1" (id 0) (at 54.991 62.1284 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10µF" (id 1) (at 54.991 59.817 0)
@@ -21613,7 +21613,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 438.15 344.17 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006197418d)
-    (property "Reference" "TP23" (id 0) (at 439.6232 342.3412 0)
+    (property "Reference" "TP25" (id 0) (at 439.6232 342.3412 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "V +3.3V" (id 1) (at 439.6232 343.4842 0)
@@ -21631,7 +21631,7 @@
   (symbol (lib_name "TestPoint_27") (lib_id "Connector:TestPoint") (at 420.37 377.19 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000619747a3)
-    (property "Reference" "TP27" (id 0) (at 421.8432 375.3612 0)
+    (property "Reference" "TP26" (id 0) (at 421.8432 375.3612 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "V +1.8V" (id 1) (at 421.8432 376.5042 0)
@@ -21839,7 +21839,7 @@
   (symbol (lib_name "C_6") (lib_id "Device:C") (at 328.93 298.45 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061999a84)
-    (property "Reference" "C14" (id 0) (at 331.851 297.2816 0)
+    (property "Reference" "C13" (id 0) (at 331.851 297.2816 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10µF" (id 1) (at 331.851 299.593 0)
@@ -21893,10 +21893,10 @@
   (symbol (lib_name "C_3") (lib_id "Device:C") (at 368.3 299.72 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006199da9d)
-    (property "Reference" "C17" (id 0) (at 371.221 298.5516 0)
+    (property "Reference" "C16" (id 0) (at 371.348 300.482 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10µF" (id 1) (at 371.221 300.863 0)
+    (property "Value" "10µF" (id 1) (at 371.602 298.45 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 369.2652 303.53 0)
@@ -22731,7 +22731,7 @@
   (symbol (lib_name "TestPoint_18") (lib_id "Connector:TestPoint") (at 317.5 363.22 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a568e8)
-    (property "Reference" "TP25" (id 0) (at 322.2752 363.22 90)
+    (property "Reference" "TP23" (id 0) (at 322.2752 363.22 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Charging status" (id 1) (at 318.1858 364.6932 0)
@@ -22781,7 +22781,7 @@
   (symbol (lib_name "TestPoint_3") (lib_id "Connector:TestPoint") (at 227.33 386.08 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a727f6)
-    (property "Reference" "TP28" (id 0) (at 226.06 383.54 0)
+    (property "Reference" "TP20" (id 0) (at 226.06 383.54 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "IR-TX" (id 1) (at 225.8568 385.3942 0)
@@ -23398,7 +23398,7 @@
   (symbol (lib_name "C_35") (lib_id "Device:C") (at 184.15 67.31 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061c42b5f)
-    (property "Reference" "C3" (id 0) (at 181.229 66.1416 0)
+    (property "Reference" "C2" (id 0) (at 181.229 66.1416 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10µF" (id 1) (at 181.229 68.453 0)
@@ -24841,7 +24841,7 @@
   (symbol (lib_name "C_28") (lib_id "Device:C") (at 379.095 299.72 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 057e939e-ebb2-4969-897c-7e1b371b2312)
-    (property "Reference" "C16" (id 0) (at 382.016 300.8884 0)
+    (property "Reference" "C15" (id 0) (at 382.016 300.8884 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10µF" (id 1) (at 382.016 298.577 0)
@@ -25695,7 +25695,7 @@
   (symbol (lib_name "C_28") (lib_id "Device:C") (at 318.77 299.085 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 76811d65-bc82-4cf5-8b8f-30ad396a1437)
-    (property "Reference" "C15" (id 0) (at 321.691 300.2534 0)
+    (property "Reference" "C14" (id 0) (at 321.691 300.2534 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10µF" (id 1) (at 321.691 297.942 0)
@@ -25749,7 +25749,7 @@
   (symbol (lib_name "C_28") (lib_id "Device:C") (at 554.99 38.1 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 7ecd9960-e262-4338-9f9d-39e182c2ae90)
-    (property "Reference" "C13" (id 0) (at 557.911 39.2684 0)
+    (property "Reference" "C3" (id 0) (at 557.911 39.2684 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10µF" (id 1) (at 557.911 36.957 0)
@@ -26185,7 +26185,7 @@
   (symbol (lib_name "C_43") (lib_id "Device:C") (at 382.27 350.52 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid dfa28cad-75d4-4f4d-8359-e41ef583dc25)
-    (property "Reference" "C22" (id 0) (at 385.191 349.3516 0)
+    (property "Reference" "C21" (id 0) (at 385.191 349.3516 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7µF" (id 1) (at 385.191 351.663 0)
@@ -27010,9 +27010,12 @@
       (reference "#PWR0178") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000061962fb2"
-      (reference "C2") (unit 1) (value "10µF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C1") (unit 1) (value "10µF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000061c42b5f"
+      (reference "C2") (unit 1) (value "10µF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/7ecd9960-e262-4338-9f9d-39e182c2ae90"
       (reference "C3") (unit 1) (value "10µF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00006195660a"
@@ -27042,35 +27045,35 @@
     (path "/00000000-0000-0000-0000-000061b8d22a"
       (reference "C12") (unit 1) (value "10µF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
-    (path "/7ecd9960-e262-4338-9f9d-39e182c2ae90"
+    (path "/00000000-0000-0000-0000-000061999a84"
       (reference "C13") (unit 1) (value "10µF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
-    (path "/00000000-0000-0000-0000-000061999a84"
+    (path "/76811d65-bc82-4cf5-8b8f-30ad396a1437"
       (reference "C14") (unit 1) (value "10µF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
-    (path "/76811d65-bc82-4cf5-8b8f-30ad396a1437"
+    (path "/057e939e-ebb2-4969-897c-7e1b371b2312"
       (reference "C15") (unit 1) (value "10µF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
-    (path "/057e939e-ebb2-4969-897c-7e1b371b2312"
+    (path "/00000000-0000-0000-0000-00006199da9d"
       (reference "C16") (unit 1) (value "10µF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
-    (path "/00000000-0000-0000-0000-00006199da9d"
-      (reference "C17") (unit 1) (value "10µF") (footprint "Capacitor_SMD:C_0603_1608Metric")
-    )
     (path "/00000000-0000-0000-0000-00006195b020"
+      (reference "C17") (unit 1) (value "4.7µF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-0000618e1606"
       (reference "C18") (unit 1) (value "4.7µF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00006190be3b"
       (reference "C19") (unit 1) (value "4.7µF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
-    (path "/00000000-0000-0000-0000-0000618e1606"
+    (path "/00000000-0000-0000-0000-000061956615"
       (reference "C20") (unit 1) (value "4.7µF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
-    (path "/00000000-0000-0000-0000-000061956615"
+    (path "/dfa28cad-75d4-4f4d-8359-e41ef583dc25"
       (reference "C21") (unit 1) (value "4.7µF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
-    (path "/dfa28cad-75d4-4f4d-8359-e41ef583dc25"
-      (reference "C22") (unit 1) (value "4.7µF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    (path "/00000000-0000-0000-0000-000061962faa"
+      (reference "C22") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/42603f24-ece0-40fc-a7e7-c4c3400e6597"
       (reference "C23") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -27155,9 +27158,6 @@
     )
     (path "/00000000-0000-0000-0000-0000618e1140"
       (reference "C50") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
-    )
-    (path "/00000000-0000-0000-0000-000061962faa"
-      (reference "C51") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000061986695"
       (reference "D1") (unit 1) (value "WS2812B") (footprint "Teebeutel_Special_Parts:WS2812B-4020")
@@ -27489,26 +27489,26 @@
     (path "/00000000-0000-0000-0000-000061c3c611"
       (reference "TP19") (unit 1) (value "I²C SCL 1.8V") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
+    (path "/00000000-0000-0000-0000-000061a727f6"
+      (reference "TP20") (unit 1) (value "IR-TX") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/00000000-0000-0000-0000-00006195543a"
+      (reference "TP21") (unit 1) (value "IR-RX") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
     (path "/00000000-0000-0000-0000-00006195d8fc"
       (reference "TP22") (unit 1) (value "WS2821") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
-    (path "/00000000-0000-0000-0000-00006197418d"
-      (reference "TP23") (unit 1) (value "V +3.3V") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    (path "/00000000-0000-0000-0000-000061a568e8"
+      (reference "TP23") (unit 1) (value "Charging status") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/00000000-0000-0000-0000-0000622bc987"
       (reference "TP24") (unit 1) (value "ADC Battery (1/4 Battery voltage)") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
-    (path "/00000000-0000-0000-0000-000061a568e8"
-      (reference "TP25") (unit 1) (value "Charging status") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
-    )
-    (path "/00000000-0000-0000-0000-00006195543a"
-      (reference "TP26") (unit 1) (value "IR-RX") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    (path "/00000000-0000-0000-0000-00006197418d"
+      (reference "TP25") (unit 1) (value "V +3.3V") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/00000000-0000-0000-0000-0000619747a3"
-      (reference "TP27") (unit 1) (value "V +1.8V") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
-    )
-    (path "/00000000-0000-0000-0000-000061a727f6"
-      (reference "TP28") (unit 1) (value "IR-TX") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+      (reference "TP26") (unit 1) (value "V +1.8V") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/ae0b280d-5b19-4706-a648-a6c027d3cbbf"
       (reference "U1") (unit 1) (value "SRV05-4") (footprint "Package_TO_SOT_SMD:SOT-23-6")
