@@ -1,7 +1,6 @@
 name: hardware 
 title: Hardware
 version: v1.0
-prerelease: true
 nav:
     - modules/pcb/nav.adoc
     - modules/sensor/nav.adoc

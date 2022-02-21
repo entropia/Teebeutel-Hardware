@@ -1,7 +1,7 @@
 (footprint "PPSI262" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61D2F537)
-  (attr through_hole)
+  (tedit 62138F0A)
+  (attr smd)
   (fp_text reference "U7" (at 0 -2.0193 180) (layer "F.SilkS") hide
     (effects (font (size 0.5 0.5) (thickness 0.1)))
     (tstamp 459c5a2b-23e5-48b2-a5df-f927943e8ed5)
