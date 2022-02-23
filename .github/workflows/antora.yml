@@ -1,0 +1,21 @@
+name: Trigger antora build and deployment
+on:
+  push:
+    paths:
+      - 'docs/**'
+    branches:
+      - v*
+
+  workflow_dispatch:
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Invoke workflow without inputs
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: Build and Deploy docs
+          repo: entropia/Teebeutel-Documentation
+          token: ${{ secrets.ACCESS_TOKEN }}
+          ref: main
