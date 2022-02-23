@@ -5,3 +5,4 @@ nav:
     - modules/pcb/nav.adoc
     - modules/sensor/nav.adoc
     - modules/display/nav.adoc
+    - modules/led/nav.adoc
