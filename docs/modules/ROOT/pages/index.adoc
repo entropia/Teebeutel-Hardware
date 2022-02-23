@@ -1,1 +1,37 @@
 = Teebeutel Hardware
+
+On this page you'll find more detailed information about the hardware and how the different parts are inter-/connected.
+
+== Display
+
+== Sensors
+
+=== SpO~2~
+
+=== Air-quality, CO~2~, Ethanol
+
+=== Accelerometer
+
+=== Hall sensor
+
+=== Touch-buttons
+
+=== D-Pad
+
+== LEDs
+
+== Battery and charging
+
+== Processor
+
+== Data-transmission
+
+=== Wifi
+
+=== Bluetooth
+
+=== IR Transceiver
+
+=== SD-Card
+
+=== Programming-Interface and Power
