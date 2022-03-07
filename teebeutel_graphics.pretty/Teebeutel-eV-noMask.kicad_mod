@@ -1,4 +1,4 @@
-(footprint "Teebeutel" (version 20211014) (generator pcbnew)
+(footprint "Teebeutel-eV-noMask" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 622492CE)
   (attr board_only exclude_from_pos_files exclude_from_bom)
