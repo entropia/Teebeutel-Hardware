@@ -23305,7 +23305,7 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061b3bac9)
     (property "Reference" "U1" (id 0) (at 153.67 169.6466 0))
-    (property "Value" "PCA9539BS,118" (id 1) (at 153.67 171.958 0))
+    (property "Value" "PCA9539PW" (id 1) (at 153.67 171.958 0))
     (property "Footprint" "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" (id 2) (at 180.34 191.77 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
@@ -27773,7 +27773,7 @@
       (reference "TP26") (unit 1) (value "V +1.8V") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/00000000-0000-0000-0000-000061b3bac9"
-      (reference "U1") (unit 1) (value "PCA9539BS,118") (footprint "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm")
+      (reference "U1") (unit 1) (value "PCA9539PW") (footprint "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm")
     )
     (path "/00000000-0000-0000-0000-00006194c291"
       (reference "U2") (unit 1) (value "TXB0104RUT") (footprint "Package_SO:TSSOP-14_4.4x5mm_P0.65mm")
